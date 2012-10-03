@@ -14,8 +14,11 @@ meta-spec:
   version: 1.4
 name: Dancer-Plugin-CDN
 requires:
+  Dancer: 0
   HTTP::CDN: 0
+  HTTP::Date: 0
   perl: 5.010
 resources:
+  bugtracker: https://github.com/grantm/Dancer-Plugin-CDN/issues
   repository: git://github.com/grantm/Dancer-Plugin-CDN.git
-version: 1.000
+version: 1.001

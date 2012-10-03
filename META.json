@@ -21,7 +21,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Dancer" : "0",
             "HTTP::CDN" : "0",
+            "HTTP::Date" : "0",
             "perl" : "5.010"
          }
       },
@@ -33,12 +35,15 @@
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/grantm/Dancer-Plugin-CDN/issues"
+      },
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/grantm/Dancer-Plugin-CDN.git",
          "web" : "http://github.com/grantm/Dancer-Plugin-CDN"
       }
    },
-   "version" : "1.000"
+   "version" : "1.001"
 }
 

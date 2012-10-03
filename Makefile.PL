@@ -22,9 +22,11 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Dancer::Plugin::CDN",
   "PREREQ_PM" => {
-    "HTTP::CDN" => 0
+    "Dancer" => 0,
+    "HTTP::CDN" => 0,
+    "HTTP::Date" => 0
   },
-  "VERSION" => "1.000",
+  "VERSION" => "1.001",
   "test" => {
     "TESTS" => "t/*.t"
   }
